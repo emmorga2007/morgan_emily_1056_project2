@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 #container
 {
 	margin: 0 auto;
@@ -70,4 +71,108 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', end
 	background-color: #73B2E2;
 	border-radius: 10px;
 	color: #333;
+}
+
+/* css for the nav menue end */
+
+/* css for the button*/
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.button
+{
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	
+	/*The box-shadow property allows designers to easily implement multiple drop shadows
+	(outer or inner) on box elements, specifying values for horz, vert offset, third is blur*/
+	/*horz offset, vert offset, third is blur*/
+	box-shadow: 0 1px 4px rgba(0,0,0,.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.button:active {
+	/*Set to relative so we can use top property to adjust position on click*/
+	position: relative;
+	top: 5px;
+}
+
+/*http://www.colorzilla.com/gradient-editor*/
+
+.blue
+{
+border: solid 1px #0093C9; 
+	
+background: rgb(0,183,234); /*non css3 browsers*/
+
+background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1)));
+
+background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+background: -o-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+background: -ms-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );
+
+
+}
+
+
+.blue:hover
+{
+
+background: rgb(181,189,200); /* Old browsers */
+
+background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); 
+
+background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); 
+
+background: -o-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); 
+
+background: -ms-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); 
+
+background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); 
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); 
+
+	/*
+background: rgb(59,192,229); /*non css3 browsers
+
+background: -moz-linear-gradient(top,  rgba(59,192,229,1) 0%, rgba(25,162,193,1) 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,192,229,1)), color-stop(100%,rgba(25,162,193,1)));
+
+background: -webkit-linear-gradient(top,  rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+background: -o-linear-gradient(top,  rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+background: -ms-linear-gradient(top,  rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+background: linear-gradient(to bottom,  rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bc0e5', endColorstr='#19a2c1',GradientType=0 );
+*/
+
+}
+/* css for the button end */
+
+/*main body css begin */
+
+main {
+	font-family: 'Catamaran', sans-serif;
 }
