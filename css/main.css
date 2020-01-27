@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+/* css for the nav menu start */
 #container
 {
 	margin: 0 auto;
@@ -171,8 +171,285 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bc0e5', end
 }
 /* css for the button end */
 
-/*main body css begin */
+/*header css begin */
+
+.entirepage {
+	background-color: #CECCCC;
+}
 
 main {
-	font-family: 'Catamaran', sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
 }
+
+.sitecont {
+	background-color: #EDEBEB;
+	margin: 0 auto;
+	width: 960px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.musklogo {
+	padding: 40px;
+	text-align: center;
+}
+
+.herocont {
+	background-color: #777575;
+	margin: 40px 0px 40px 0px;
+	width: 960px;
+	display: inline-flex;
+	flex-direction: row;
+
+}
+
+.heroimage {
+	margin: 20px 20px 20px 0px;
+	width: 60%;
+	justify-content: right;
+}
+
+.brewinfo {
+	color: white;
+}
+
+.brewinfo h1 {
+	font-size: 27px;
+	padding: 20px 0px 10px 0px;
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+	line-height: 1.7;
+	font-stretch: ultra-expanded;
+	letter-spacing: 1.5px;
+}
+
+.brewinfo h2 {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 6px; 
+}
+
+.brewinfo p {
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.contactbar { 
+	background-color: #56A5E0;
+	padding: 30px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.contactbar p {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+}
+
+
+/*header css end */
+
+/* why muskoka css start */
+
+.whyText {
+	font-family: 'Cabin', sans-serif;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.whycont {
+	display: inline-flex;
+	flex-direction: row;
+	padding: 90px;
+}
+
+.whyText h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #56A5E0;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-left: 5px solid #56A5E0; 
+
+}
+
+.whyText p {
+	color: white;
+	line-height: 1.5;
+	font-size: 20px;
+	background-color: #777575;
+	padding: 15px;
+	box-shadow: 5px 10px #000000 ;
+	border-top-right-radius: 25px;
+}
+
+.whyText span {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+}
+/* why muskoka css end */
+/* our values css start */
+
+.valutitle {
+	padding: 20px 12px 20px 0px;
+	display: flex;
+	flex-direction: row;
+	border-top: 10px solid #56A5E0;
+}
+
+.valu h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: #56A5E0;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.lillogo img {
+	width: 130px;	
+}
+
+.valu h2{
+	padding: 0px 0px 0px 24px;
+	font-size: 19px;
+}
+
+.valuescont {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 20px 60px 20px 50px; 
+	border-top: 10px solid #56A5E0; 
+}
+
+.cont {
+	color: white;
+	width: 190px;
+	height: 175px;
+	margin: 20px;
+	background-color: #56A5E0;
+	padding: 15px;
+	box-shadow: 5px 10px #000000 ;
+	border-top-right-radius: 25px;
+}
+
+.cont h1 {
+	padding: 5px;
+	font-weight: bold;
+	letter-spacing: 1.3px;
+	color: navy;
+}
+
+.cont p {
+	line-height: 1.1;
+}
+
+
+/* our values css end */
+/* our beers css start */
+
+.beertitle {
+	border-top: 10px solid #56A5E0;
+	border-bottom: 10px solid #56A5E0;
+	padding:15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.beertitle h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #56A5E0;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 30px;	
+}
+
+.beerimages {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px 0px 20px 0px;
+}
+
+.beer {
+	width: 30%;
+}
+
+.beerinfo ul {
+	padding: 30px 50px 30px 50px;
+	height: 130px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #777575; 
+	border-radius: 25px;
+}
+
+.beerinfo li {
+	color: white;
+	font-size: 18px;
+	padding: 2px 0px 2px 7px;
+	border-left: 5px solid #56A5E0;
+
+}
+
+/* our beers css end */
+/* contact css start */
+
+.contacttitle {
+	color: white;
+	width: 140px;
+	font-size: 20px;
+	padding: 15px;
+	background-color: #56A5E0;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	margin-top: 30px;
+}
+
+.endcontact {
+	display: flex;
+	flex-direction: row;
+	background-color: #56A5E0;
+	border-top-right-radius: 25px;
+	padding: 20px 20px 90px 20px;
+}
+
+.contactinfo h1 {
+	color: white;
+	line-height: 1.4;
+	font-size: 25px;
+	padding: 4px 0px 3px 4px;
+	font-style: italic;
+
+}
+
+.contactinfo h2 {
+	color: navy;
+	line-height: 1.4;
+	font-size: 19px;
+	padding: 4px 0px 3px 4px;
+}
+
+
+.contactinfo p {
+	color: white;
+	line-height: 1.4;
+	font-size: 19px;
+	padding: 4px 0px 3px 4px;
+}
+
+
+
+/* contact css end */
+
+
+
+
